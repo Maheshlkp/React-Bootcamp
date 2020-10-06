@@ -1,10 +1,22 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import HeroSection from './HeroSection';
+import CardSection from './CardSection';
+import AppSection from './AppSection';
+import Counter from './Counter';
+
 
 const App = () =>{
     return (
       <div>
-        <h1 style={{textAlign:"center"}}>React Bootcamp</h1>
-        <button className="button">Add</button>
+        <Navbar />
+        <HeroSection/>
+        <CardSection/>
+        <AppSection/>
+        <Counter/>
+        
+        <Footer/>
       </div>
     )
   }
